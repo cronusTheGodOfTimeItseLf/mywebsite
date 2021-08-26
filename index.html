@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>about me</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ble.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="file:///C:/Users/hqala/Desktop/other%20website/index.html">home</a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/hqala/Desktop/other%20website/contact.html">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="file:///C:/Users/hqala/Desktop/other%20website/aout.html">long story short</a>
+              </li>
+            </ul>
+          </nav>
+          <br/>
+          <br/>
+          <br/>
+          <div class="container">
+            <div class="jumbotron">
+              <b><h1>Hello!</h1>
+              <p>this is my website</p>
+            
+            <p>basicly for short,</p>
+            <p> i made this website to<br/>give some info about me to you</p></b>
+        </div>
+        <p style="color: blue;"><b><marquee>this is the home page,as you can see</marquee></b></p>
+          </div>
+
+        <br/>
+        <br/>
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1>I am lucid</h1>
+              <p>im a coder</p>
+              <button><a href="aout.html">more about me</a></button>
+            </div>
+          </div>
+          <br/>
+          <p>want to contact me?<a href="contact.html">well click here!</a></p>
+          <br/>
+
+          
+<section>
+    <img class="mySlides" src="use.jpg" style="width:100%">
+    <img class="mySlides" src="poip.jpg" style="width:100%">
+    <img class="mySlides" src="rar.jpg" style="width:100%">
+  </section>
+  <br/>
+  <br/>
+  <h5>i know over 3 coding langagues and learning more by the second!
+     <br/> (desert symbolizes html)
+      <br/>(city symbolizes css)
+      <br/>(water symbolizes bootstrap)
+  </h5><br/>
+<h3>work in progress</h3><br/>
+<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%">10% done</div>
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <h2>what i learned this month?
+        <br/>
+   </h2> 
+  </div>
+
+  <script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+  </script>
+
+    </body>
+</html>
